@@ -11,6 +11,4 @@ router.get('/todo/:id', TodoController.readOne);
 router.put('/todo/:id', TodoController.update);
 router.delete('/todo/:id', TodoController.del);
 
-
-
 export default router;

@@ -7,9 +7,7 @@ export interface TodoInstance extends Model {
   done: boolean;
 }
 
-export const Todo = sequelize.define<TodoInstance>(
-  "Todo",
-  {
+export const Todo = sequelize.define<TodoInstance>("Todo",{
     id: {
       primaryKey: true,
       autoIncrement: true,
